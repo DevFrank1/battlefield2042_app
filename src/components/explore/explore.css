@@ -1,0 +1,65 @@
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.explore h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 1rem;
+    text-align: center;
+}
+
+.explore-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-items button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 3px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.explore-items button:first-child {
+    background: #ff2c10;
+}
+
+.explore-items button:hover {
+    transform: scale(1.05);
+    transition: 250ms;
+}
+
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1080px) {
+    .explore-items {
+    flex-direction: column;
+    }
+
+    .explore-items button {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    
+    
+}

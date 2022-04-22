@@ -1,0 +1,71 @@
+.discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.discover-background img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.discover-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.discover-items h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 1rem;
+    text-align: center;
+}
+
+.discover-items h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 1rem;
+    text-align: center;
+}
+
+.discover-items-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover-items-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 3px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.discover-items-btn button:hover {
+    transform: scale(1.05);
+    transition: 250ms;
+    font-size: 17px;
+}
+

@@ -1,0 +1,39 @@
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+}
+
+.newsletter-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80vw;
+}
+
+.newsletter-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsletter-left h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 2rem;
+    text-align: center;
+}
+
+.newsletter-left p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 2rem;
+    text-align: center;
+}
